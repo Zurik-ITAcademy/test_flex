@@ -1,0 +1,26 @@
+body{
+    width: 96%;
+    padding: 25px 20px;
+    background: rgba(0, 0, 0, .2);
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
+.flex .box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(170, 61, 83);
+}
+
